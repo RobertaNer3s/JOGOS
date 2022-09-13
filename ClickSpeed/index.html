@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Click Speed Rick&Morty</title>
+</head>
+<body>
+    <div class="screen">
+    <h1>ESCOLHA UM PERSONAGEM</h1>
+    <button class="btn" id="start-btn">COMECE</button>
+    </div>
+
+    <div class="screen">
+    <h1>QUAL SEU PERSONAGEM FAVORITO?</h1>
+    <ul class="ts-list">
+        <li>
+        <button class="choose-btn">
+            <p>MORTY</p>
+            <img src="/morty.png" alt="MORTY">
+        </button>
+        </li>
+        <li>
+        <button class="choose-btn">
+            <p>JERRY</p>
+            <img
+            src="/jerry.png"
+            alt="JERRY"
+            />
+        </button>
+        </li>
+        <li>
+        <button class="choose-btn">
+            <p>RICK</p>
+            <img
+            src="/rick.png"
+            alt="RICK"
+            />
+        </button>
+        </li>
+        <li>
+        <button class="choose-btn">
+            <p>SUMMER</p>
+            <img
+            src="/summer.png"
+            alt="SUMMER"
+            />
+        </button>
+        </li>
+    </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+    <h3 id="time" class="time">Time: 00:00</h3>
+    <h3 id="score" class="score">Score: 0</h3>
+    <h5 id="message" class="message">
+    Você está gostando? <br>
+        O jogo não vai acabar HAHAHAHHA
+    </h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
